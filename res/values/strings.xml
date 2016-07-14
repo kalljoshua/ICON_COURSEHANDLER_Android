@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_log">Logout</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_help">Help</string>
+    <string name="nav_item_register">Register</string>
+    <string name="nav_item_login">Login</string>
+    <string name="nav_item_notifications">Process Results</string>
+    <string name="nav_item_scores">Score Board</string>
+    <string name="nav_item_exit">Exit</string>
+    <string name="back">Back</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_scores</item>
+        <item>@string/nav_item_register</item>
+        <item>@string/nav_item_login</item>
+        <item>@string/nav_item_help</item>
+        <item>@string/nav_item_exit</item>
+
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_scores">Score Board</string>
+    <string name="title_help">Help</string>
+    <string name="title_register">Register</string>
+    <string name="title_login">Login</string>
+    <string name="title_home">Home</string>
+    <string name="title_exit">Exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- subject labels  -->
+    <string name="physics">Physics</string>
+    <string name="math">Math</string>
+    <string name="enter">Enter Grades(D,C,P,F)</string>
+    <string name="btn_display">Next</string>
+    <string name="economics">Economics</string>
+    <string name="english">English</string>
+    <string name="fineart">Fine Art</string>
+    <string name="biology">Biology</string>
+    <string name="history">History</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="geography">Geography</string>
+    <string name="computer">Computer</string>
+    <string name="submath">Sub Math</string>
+    <string name="generalpaper">General Paper</string>
+    <string name="literature">Literature</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="luganda">Luganda</string>
+    <string name="cre">Christian Religious Education</string>
+    <string name="addmath">Additional Math</string>
+    <string name="Homeeconomics">Home Economics</string>
+    <string name="germany">Germany</string>
+    <string name="arabic">Arabic</string>
+    <string name="latin">Latin</string>
+    <string name="music">Music</string>
+    <string name="political">Political Education</string>
+    <string name="metalwork">Metal Work</string>
+    <string name="kiswahili">Kiswahili</string>
+    <string name="tdrawing">Technical Drawing</string>
+    <string name="french">French</string>
+    <string name="foodandnutrition">Food and Nutrition</string>
+    <string name="Alevel">Select A-Level Subjects</string>
+    <string name="olevel">Select Your 3 O-level Optional Subjects</string>
+    <string name="title_activity_splash1">Splash1</string>
+    <string name="title_activity_splash2">Splash2</string>
+    <string name="footer">2014 @Copyright Course Handler </string>
+    <string name="title_activity_alevel_selector">AlevelSelector</string>
+    <string name="title_activity_olevel_selector">OlevelSelector</string>
+    <string name="title_activity_enter_results_o">EnterResultsO</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_enter_results">EnterResultsA</string>
+    <string name="title_activity_retrieve_universities">Our Universities</string>
+    <string name="universities">Our Universities</string>
+    <string name="title_activity_universities">Universities</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_calculate">Calculate</string>
+    <string name="title_activity_university">University</string>
+    <string name="title_activity_schools">Schools</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_why">Why</string>
+
+    <!--help dialog-->
+    <string name="title_dialog">About App | v1.0</string>
+    <string name="need_dialog">Do you need Help?</string>
+    <string name="link_dialog">HELP</string>
+    <string name="contact_dialog">CONTACT</string>
+    <string name="close_dialog">CLOSE</string>
+    <string name="link_rules_dialog">RULES</string>
+    <string name="suggestion_dialog">Do you have suggestions or questions</string>
+    <string name="rules_dialog">The use of this App subjects to the acceptance of</string>
+    <string name="rights_dialog">Course Handler reserves the right of collecting anonymous statistics of application usability and user actions within the application</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_login">Login Up</string>
+
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+
+</resources>

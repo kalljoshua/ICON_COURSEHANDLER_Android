@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="17sp" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".EnterResultsO"
+            >
+
+            <TextView
+                android:id="@+id/math"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/math"
+                android:textIsSelectable="true"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/editmath"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:id="@+id/physics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/physics"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editphysics"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:id="@+id/chemistry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/chemistry"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editchemistry"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:id="@+id/biology"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/biology"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editbiology"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:id="@+id/history"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/history"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edithistory"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:id="@+id/geography"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/geography"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editgeography"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true"/>
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/english"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editenglish"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:ems="10"
+                android:background="#FFFFFF"
+                android:hint="@string/enter"
+                android:focusableInTouchMode="true" />
+
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/abc_ic_go_search_api_mtrl_alpha"/>
+</RelativeLayout>

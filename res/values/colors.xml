@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0041f5</color>
+    <color name="colorPrimaryDark">#111dc5</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="indigo">#80e6ff</color>
+    <color name="list_divider">#dedede</color>
+    <color name="pink">#80f2ff</color>
+    <color name="colorAccent">#80f9ff</color>
+    <color name="textview">#D3D3D3</color>
+
+
+    <color name="btn_bg_checkout">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="lbl_product_name">#333333</color>
+    <color name="lbl_product_description">#444444</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+    <color name="msg_border_color">#a1a1a1</color>
+    <color name="bg_btn_join">#1e6258</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="lblFromName">#777777</color>
+
+</resources>

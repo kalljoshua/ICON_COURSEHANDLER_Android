@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.materialdesign" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- needed for older devices -
+     used to check app background / foreground status -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- START Added for GCM -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission
+        android:name="inc.can_a.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="inc.can_a.gcm.permission.C2D_MESSAGE" />
+    <!-- END Added for GCM -->
+
+    <application
+        android:name="info.androidhive.materialdesign.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.Aboutandhelp"
+            android:label="About and help" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.OLevelSubjectSelector"
+            android:label="O-Level Subjects" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.EnterOlevelResults"
+            android:label="Enter O-Level Results" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.AlevelSubjectSelector"
+            android:label="A-Level Subjects" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.EnterALevelResults"
+            android:label="Enter A-Level Results" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.Calculate"
+            android:label="Enter O-Level Results" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.ScoreBoard"
+            android:label="Enter O-Level Results" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.LoginActivity"
+            android:label="Enter O-Level Results" >
+        </activity>
+        <activity
+            android:name="info.androidhive.materialdesign.pages.RegisterActivity"
+            android:label="Enter O-Level Results" >
+        </activity>
+
+
+
+
+        <!-- START Added for GCM -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="inc.can_a.gcm" />
+            </intent-filter>
+        </receiver>
+
+
+
+    </application>
+
+</manifest>
